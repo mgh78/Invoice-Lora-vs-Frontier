@@ -1,0 +1,128 @@
+{
+  "metrics": {
+    "preds_base": {
+      "valid_json": 0.5800524934383202,
+      "schema_valid": 0.0,
+      "n_items_match": 0.25984251968503935,
+      "invoice_number": 0.3123359580052493,
+      "invoice_date": 0.3648293963254593,
+      "due_date": 0.30612244897959184,
+      "total_amount": 0.18635170603674542,
+      "subtotal": 0.21367521367521367,
+      "tax_amount": 0.16666666666666666,
+      "currency": 0.2782152230971129,
+      "vendor.name": 0.0,
+      "customer.name": 0.0,
+      "purchase_order": 0.15625,
+      "MEAN_FIELD_ACC": 0.1984446612786039
+    },
+    "preds_base_guided": {
+      "valid_json": 0.9291338582677166,
+      "schema_valid": 0.9291338582677166,
+      "n_items_match": 0.30971128608923887,
+      "invoice_number": 0.5459317585301837,
+      "invoice_date": 0.23622047244094488,
+      "due_date": 0.2653061224489796,
+      "total_amount": 0.3963254593175853,
+      "subtotal": 0.4358974358974359,
+      "tax_amount": 0.4444444444444444,
+      "currency": 0.8110236220472441,
+      "vendor.name": 0.4225721784776903,
+      "customer.name": 0.13941018766756033,
+      "purchase_order": 0.1875,
+      "MEAN_FIELD_ACC": 0.3884631681272069
+    },
+    "preds_adapter": {
+      "valid_json": 0.94750656167979,
+      "schema_valid": 0.9212598425196851,
+      "n_items_match": 0.5984251968503937,
+      "invoice_number": 0.6876640419947506,
+      "invoice_date": 0.7926509186351706,
+      "due_date": 0.46938775510204084,
+      "total_amount": 0.7191601049868767,
+      "subtotal": 0.21367521367521367,
+      "tax_amount": 0.3888888888888889,
+      "currency": 0.9133858267716536,
+      "vendor.name": 0.5511811023622047,
+      "customer.name": 0.4101876675603217,
+      "purchase_order": 0.4375,
+      "MEAN_FIELD_ACC": 0.5583681519977122
+    },
+    "preds_adapter_guided": {
+      "valid_json": 0.9763779527559056,
+      "schema_valid": 0.9763779527559056,
+      "n_items_match": 0.5931758530183727,
+      "invoice_number": 0.7165354330708661,
+      "invoice_date": 0.8162729658792651,
+      "due_date": 0.4897959183673469,
+      "total_amount": 0.7480314960629921,
+      "subtotal": 0.23076923076923078,
+      "tax_amount": 0.37037037037037035,
+      "currency": 0.9422572178477691,
+      "vendor.name": 0.5590551181102362,
+      "customer.name": 0.41823056300268097,
+      "purchase_order": 0.4270833333333333,
+      "MEAN_FIELD_ACC": 0.5718401646814091
+    },
+    "preds_luna": {
+      "valid_json": 1.0,
+      "schema_valid": 0.0,
+      "n_items_match": 0.6745406824146981,
+      "invoice_number": 0.7611548556430446,
+      "invoice_date": 0.8346456692913385,
+      "due_date": 0.7959183673469388,
+      "total_amount": 0.8556430446194225,
+      "subtotal": 0.8205128205128205,
+      "tax_amount": 0.7777777777777778,
+      "currency": 0.7532808398950132,
+      "vendor.name": 0.0,
+      "customer.name": 0.0,
+      "purchase_order": 0.7083333333333334,
+      "MEAN_FIELD_ACC": 0.630726670841969
+    },
+    "preds_luna_guided": {
+      "valid_json": 1.0,
+      "schema_valid": 0.8530183727034121,
+      "n_items_match": 0.6692913385826772,
+      "invoice_number": 0.7585301837270341,
+      "invoice_date": 0.8740157480314961,
+      "due_date": 0.7755102040816326,
+      "total_amount": 0.8661417322834646,
+      "subtotal": 0.8205128205128205,
+      "tax_amount": 0.7962962962962963,
+      "currency": 0.8451443569553806,
+      "vendor.name": 0.5748031496062992,
+      "customer.name": 0.3512064343163539,
+      "purchase_order": 0.6979166666666666,
+      "MEAN_FIELD_ACC": 0.7360077592477444
+    }
+  },
+  "tokens": {
+    "preds_base": [
+      491.2992125984252,
+      513.997375328084
+    ],
+    "preds_base_guided": [
+      491.2992125984252,
+      480.46194225721786
+    ],
+    "preds_adapter": [
+      491.2992125984252,
+      276.753280839895
+    ],
+    "preds_adapter_guided": [
+      491.2992125984252,
+      278.4671916010499
+    ],
+    "preds_luna": [
+      459.20997375328085,
+      398.4251968503937
+    ],
+    "preds_luna_guided": [
+      1056.2099737532808,
+      562.9238845144357
+    ]
+  },
+  "luna_cost_per_invoice": 0.0008867506561679791,
+  "break_even_always_on": 592725.8089340895
+}

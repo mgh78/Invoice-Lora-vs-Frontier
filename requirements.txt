@@ -1,0 +1,5 @@
+openai>=1.40
+numpy
+jsonschema
+matplotlib   # charts only
+# serving: install vLLM in its own virtualenv  ->  pip install vllm

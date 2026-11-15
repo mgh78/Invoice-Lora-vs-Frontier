@@ -1,0 +1,8 @@
+# data is downloaded from Hugging Face, not redistributed (see README > Data)
+data/
+*.zip
+*.gguf
+vllm-env/
+.venv/
+.env
+__pycache__/

@@ -1,0 +1,4 @@
+{
+  "base_model": "unsloth/Llama-3.2-1B-Instruct",
+  "source_checkpoint": "/root/.unsloth/studio/outputs/unsloth_Llama-3.2-1B-Instruct__project-hello-mahdi_1794759490"
+}
